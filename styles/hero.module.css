@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Quicksand:wght@300&family=Ysabeau+SC:wght@500&display=swap");
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 60vh;
+}
+.title{
+    text-shadow: 0 0 0.175em #d4d2cf;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 5rem;
+}
+
+.titleGradient {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 3.75rem;
+    text-shadow: 0 0 0.495em white;
+    color: #f4cc3f;
+}
+
+
+.heroDescription{
+    padding: 1rem;
+    max-width: 37rem;
+    line-height: 1.45;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.245rem;
+    color: #b3b2b2;
+    font-style: italic;
+}
+
+
+/* Mobile Screen */
+@media only screen and (max-width: 414px) {
+    .main{
+    height: 40vh;
+
+    }
+    .title{
+    font-size: 3rem;
+    }
+    .titleGradient{
+        font-size: 2rem;
+    }
+    .heroDescription{
+        font-size: 1rem;
+    }
+}

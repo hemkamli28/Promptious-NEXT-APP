@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItems {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navlink {
+    margin: 1.75rem;
+    color: white;
+}
+.navlink:hover {
+    color: orange;
+}
+
+.navlinkToggle {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+
+    .navbar,
+    .navBrand,
+    .navItems {
+        flex-direction: column;
+    }
+
+    .navlink {
+        flex-direction: column;
+        display: none ;
+        margin: 1rem;
+    }
+
+    .brandImg {
+        height: 99px;
+        width: 278px;
+    }
+
+    .navlinkToggle {
+        padding: 2rem;
+        font-size: 1.65rem;
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+    }
+   
+
+}
