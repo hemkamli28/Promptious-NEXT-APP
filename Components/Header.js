@@ -57,13 +57,13 @@ const Header = () => {
 
           {session?.user ?
             <>
+              <Link style={linkStyle}  href={"/profile"}>
+                <li  className={styles.navlink}  style={dstyle}>{session?.user.name}</li>
+              </Link>
               <Link style={linkStyle} href={"/create-prompt"}>
                 <li className={styles.navlink}  style={dstyle} >Create Prompt</li>
               </Link>
 
-              <Link style={linkStyle}  href={"/profile"}>
-                <li  className={styles.navlink}  style={dstyle}>{session?.user.name}</li>
-              </Link>
               <li className={styles.navlink} style={dstyle} onClick={signOut}>Logout</li>
             </>
             :

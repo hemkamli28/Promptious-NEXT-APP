@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Quicksand:wght@300&family=Ysabeau+SC:wght@500&display=swap");
+
+.formSection {
+    height: 80vh;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pgTitle {
+    padding: 1rem;
+    font-size: 3rem;
+    font-family: 'Agdasima', sans-serif;
+    /* text-shadow: 0 0 0.495em #dae50a; */
+
+}
+
+.shareDesc {
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.4;
+    color: rgb(182, 181, 181);
+    font-size: 1.45rem;
+    padding: 1rem;
+}
+
+.addForm {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.inputName {
+    padding: 1rem 0rem;
+}
+
+.promptContent,
+.promptTag {
+    border-radius: 6px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: #454074d8;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.486);
+}
+.promptContent::placeholder, .promptTag::placeholder {
+    color: white;
+    opacity: 0.7; /* Firefox */
+}
+
+.formBtn {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.submitButton {
+    border-radius: 2rem;
+    font-size: 1.15rem;
+    height: 3rem;
+    color: white;
+    border: transparent;
+    background-color: #f4cc3f;
+    cursor: pointer;
+    width: 25%;
+    box-shadow: 0px 0px 5px #f4cc3f, 0px 0px 5px #f4cc3f;
+}
+
+.submitButton:hover {
+    box-shadow: 0px 0px 5px #f4cc3f, 0px 0px 25px #f4cc3f, 0px 0px 50px #f4cc3f, 0px 0px 100px #f4cc3f, 0px 0px 200px #f4cc3f;
+    background-color: #f4cc3f;
+    border: transparent;
+}
